@@ -8,7 +8,8 @@
   <meta name="description" content="Radio">
   <meta name="author" content="Radio">
 
-  <link rel="stylesheet" href="styles/main.css?v=1.0">
+  <link rel="stylesheet" href="styles/main.css">
+  <script src="scripts/SSUhtml5Audio.js"></script>
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -24,17 +25,20 @@
 <div class="hero_header">
 </div>
 
-<audio no-controls autoplay="true">
-  <source src="http://live-events.sharp-stream.com/gghm.mp3" type="audio/mpeg">
-Your browser does not support the audio element.
-</audio>
-
 <div id="container">
 
 <h1>GUEST, GHOST, HOST: MACHINE!<br>
 7 October 2017<br>
 10am – 10pm
 </h1>
+
+<div id="player">
+  <audio controls autoplay="true">
+  <source src="http://live-events.sharp-stream.com/gghm.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+<p>Listen to the Live Stream</p>
+</div>
 
   <h2>“The ghost is in the machine, but what is the machine – and who is the ghost?”<br>
 Walter Murch<br><br>
